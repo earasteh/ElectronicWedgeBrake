@@ -38,7 +38,7 @@ Dax = 9.3279e-5;
 
 X0_caliper = 2*0.005; % Satuartion of the wedge distance from the disk
 
-KR = 1e12; % Resistance force
+KR = 1e10; % Resistance force
 %% DC Motor
 
 % L_m=0.5;

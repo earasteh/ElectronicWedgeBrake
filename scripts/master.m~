@@ -71,19 +71,17 @@ plot(simout_OL.Xw*100)
 %xlim([0 0.5])
 
 % legend('Open-Loop (24 Volts)','Closed-Loop')
-ylabel('Wedge Displacement (cm)')
-xlabel('Time (Sec.)')
+% ylabel('Wedge Displacement (cm)')
+% xlabel('Time (Sec.)')
 % title('Wedge Displacement')
 % saveas(gcf,'Xw.png')
 
 
-figure(3)
-plot(simout_OL.w_m)
-ylabel('Motor Shaft Angular Velocity (rad/Sec)')
-xlabel('Time (Sec.)')
 
-% figure
-% plot(t,omega)
+
+
+figure
+plot(t,omega)
 % xlabel('Time (Sec.)')
 % ylabel('Wheel angular velocity (rad/Sec)')
 % saveas(gcf,'omega.png')
