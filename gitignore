@@ -27,6 +27,7 @@
 *.synctex.gz
 *.tex.backup
 *.kilepr
+*.DS_Store
 
 # Directories
 .kile/

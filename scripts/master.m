@@ -6,7 +6,7 @@ close all;
 parameters
 % controller
 
-load controllers
+%load controllers
 %% Initial conditions for the vehicle
 u0 = 60; % Initial forward velocity
 pu0 = M*u0;
@@ -15,7 +15,7 @@ pw0 = Jy*(u0/Reff);
 inits = [pw0;pu0];
 
 %% Simulate
-tfinal = 10;
+tfinal = 1;
 
 
 %Kcal = 6.8e6;
@@ -61,7 +61,7 @@ legend('V_m','F_n')
 % ylabel('Braking Force (N)')
 % xlabel('Time (Sec.)')
 % title('Braking Force')
-saveas(gcf,'OL.png')
+%saveas(gcf,'OL.png')
 % 
 % 
 % figure(2)
