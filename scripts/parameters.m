@@ -31,8 +31,9 @@ N = 1/24; % gear reduction
 
 %% Shaft
 Jm = 7.094e-3; % motor Shaft intertia
-Kax = 750e6;
-Dax = 9.3279e-5;
+Kax = 750e4;
+%Kax = 750e6;
+Dax = 9.3279e-2;
 
 %Dm = 1.9175e-5; % motor viscous friction
 

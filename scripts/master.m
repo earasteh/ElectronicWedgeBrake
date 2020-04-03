@@ -19,7 +19,7 @@ tfinal = 15;
 
 
 %Kcal = 6.8e6;
-sim('Test_actuator')
+sim('test_actuator')
 simout_OL3=simout_OL;
 
 %Kcal = 8e6; 

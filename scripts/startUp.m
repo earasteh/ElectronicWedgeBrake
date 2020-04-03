@@ -1,2 +1,4 @@
-edit('master_brake.m');
-uiopen('wheel.slx',1);
+edit('master.m');
+edit('parameters.m');
+
+uiopen('Test_actuator.slx',1);
