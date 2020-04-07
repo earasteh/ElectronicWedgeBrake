@@ -55,7 +55,7 @@ yyaxis left
 plot(simout_OL.input)
 ylabel('Input Voltage, V_m (V)')
 ylim([0 15])
-xlim([0 10])
+xlim([0 3])
 grid on
 legend('V_m','F_n')
 % ylabel('Braking Force (N)')

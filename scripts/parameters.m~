@@ -12,7 +12,7 @@ B_bearing = 0.01;
 % road profile
 c1 = 1.2801;  
 c2 = 23.99;
-c3 = 0.52;
+c3 = 0.52;f
 
 
 %% Brake parameters
@@ -48,7 +48,7 @@ X0_caliper = 0.005; % Satuartion of the wedge distance from the disk
 % R_m=1;
 % K_m=0.01;
 R_m=0.4781;
-L_m=0.0230*2;
+L_m=0.0230;
 K_m=0.0157;
 
 
