@@ -17,7 +17,6 @@ inits = [pw0;pu0];
 %% Simulate
 tfinal = 15;
 
-
 %Kcal = 6.8e6;
 sim('test_actuator')
 simout_OL3=simout_OL;
@@ -55,7 +54,7 @@ yyaxis left
 plot(simout_OL.input)
 ylabel('Input Voltage, V_m (V)')
 ylim([0 15])
-xlim([0 3])
+xlim([0 4])
 grid on
 legend('V_m','F_n')
 % ylabel('Braking Force (N)')

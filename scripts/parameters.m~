@@ -12,7 +12,7 @@ B_bearing = 0.01;
 % road profile
 c1 = 1.2801;  
 c2 = 23.99;
-c3 = 0.52;f
+c3 = 0.52;
 
 
 %% Brake parameters
@@ -34,8 +34,9 @@ Jm = 7.094e-3; % motor Shaft intertia
 
 % Kax = 750e6;
 % Dax = 9.3279e-5;
+
 Kax = 750e6;
-Dax = 9.3279e-05;
+Dax = 9.3279e-5;
 
 Dm = 1.9175e-5; % motor viscous friction
 
@@ -48,7 +49,7 @@ X0_caliper = 0.005; % Satuartion of the wedge distance from the disk
 % R_m=1;
 % K_m=0.01;
 R_m=0.4781;
-L_m=0.0230;
+L_m=0.0230*10;
 K_m=0.0157;
 
 
