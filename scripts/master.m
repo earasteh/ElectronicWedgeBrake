@@ -3,7 +3,8 @@ clc;
 close all;
 %% Parameters
 %Vehicle
-parameters
+ parameters_chehasan
+% parameters_emam
 % controller
 
 %load controllers
@@ -81,6 +82,10 @@ plot(simout_OL.w_m)
 ylabel('Motor Shaft Angular Velocity (rad/Sec)')
 xlabel('Time (Sec.)')
 
+
+figure(4)
+plot(simout_OL.Fb)
+ylabel('Brake Force (N)')
 % figure
 % plot(t,omega)
 % xlabel('Time (Sec.)')
